@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class AdbTool {
 
-    //dev分支测试
-
+    //master!!!233333
     public static void main(String[] args) {
         String aaa = getDeviceId(1);
         System.out.println("设备id是: "+getDeviceId(1));
