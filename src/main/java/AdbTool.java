@@ -7,10 +7,11 @@ public class AdbTool {
 
     //master!!!233333
     public static void main(String[] args) {
-        String aaa = getDeviceId(1);
-        System.out.println("设备id是: "+getDeviceId(1));
+        //String aaa = getDeviceId(1);
+        //System.out.println("设备id是: "+getDeviceId(1));
         //System.out.println(aaa);
-        System.out.println("设备版本号是: "+getAndroidVersion(1));
+        //System.out.println("设备版本号是: "+getAndroidVersion(1));
+        System.out.println("当前: "+System.getProperty("user.dir"));
     }
 
 
